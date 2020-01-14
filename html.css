@@ -116,6 +116,9 @@ h2{
 
 
 }
+.header h1{
+color: #b6eae8;
+}
 
 .contentbox1 {
  background: #8e50bc;
@@ -283,7 +286,7 @@ margin-left: 20%;
   width: 20%;
   margin-left: 3%;
   float: left;
-  margin-right: auto
+  margin-top:25px;
 }
 
 .menu{
