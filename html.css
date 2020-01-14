@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Arvo|Bad+Script|Bowlby+One+SC|Comfortaa|Jura|Kumar+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton|Baloo+Bhai&display=swap');
+html{
+
+
+}
+body{
+
+  margin: 0;
+  height: 2000;
+  width: 100%;
+
+
+}
+.header{
+  width: 100%;
+  height: auto;
+  position: fixed;
+ background: -webkit-linear-gradient(right top,#1c0ca1,#ee17dd);
+ border: 3px;
+
+}
+.log {
+  color:white;
+  height: 70px;
+  width: 20%;
+  margin-left: 10%;
+  float: left;
+  text-decoration: none;
+ text-transform: uppercase;
+font-family: 'Baloo Bhai', cursive;
+    cursor: pointer;
+}
+.sabbox{
+  float: left;
+  width: 100%;
+    min-height: 880px;
+
+   background: -webkit-linear-gradient( top,#1c0ca1,#e87735);
+
+}
+.imene {
+  float: left;
+  width: 100%;
+
+}
+.headerbox{
+
+  margin-bottom: 10px;
+  background:transparent ;
+  width: 100%;
+  height: 70px;
+
+}
+.helper{
+  float: left;
+  min-height: 1000px;
+  width: 100%;
+  background: -webkit-linear-gradient(top,#e87735,#148e14);
+}
+.content{
+    float: left;
+    width: 100%;
+  height: 800px;
+  background-image: url("./q4.jpg");
+  background-attachment: fixed;
+  background-blend-mode: multiply;
+  background-color: #b5aeee;
+  background-size: cover;
+  margin-top: 80px;
+}
+.contact {
+ margin-right: 30px;
+  float: right;
+    cursor: pointer;
