@@ -279,8 +279,9 @@ margin-left: 20%;
 
     }
 .log{
+  font-size: 50%;
   width: 20%;
-  margin-left: 4%;
+  margin-left: 3%;
   float: left;
   margin-right: auto
 }
