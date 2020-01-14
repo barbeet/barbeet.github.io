@@ -62,7 +62,7 @@ font-family: 'Baloo Bhai', cursive;
     float: left;
     width: 100%;
   height: 800px;
-  background-image: url("./q4.jpg");
+  background-image: url("./master/q4.jpg");
   background-attachment: fixed;
   background-blend-mode: multiply;
   background-color: #b5aeee;
@@ -203,7 +203,7 @@ font-family: 'Jura', sans-serif;
 .contentboximage1{
   border-radius: 25px;
   background-size: cover;
-  background-image: url("./q1.jpg");
+  background-image: url("./master/q1.jpg");
   height: 300px;
   width: 300px;
   margin-left: 20%;
@@ -212,7 +212,7 @@ font-family: 'Jura', sans-serif;
 .contentboximage2{
   border-radius: 25px;
   background-size: cover;
-  background-image: url("./q2.jpg");
+  background-image: url("./master/q2.jpg");
   height: 300px;
   width: 300px;
   margin-left: 20%;
@@ -221,7 +221,7 @@ font-family: 'Jura', sans-serif;
 .contentboximage3{
   border-radius: 25px;
   background-size: cover;
-  background-image: url("./q3.jpg");
+  background-image: url("./master/q3.jpg");
   height: 300px;
   width: 300px;
 margin-left: 20%;
