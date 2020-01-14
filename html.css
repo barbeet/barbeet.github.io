@@ -250,9 +250,9 @@ margin-left: 20%;
   }
 
 }
-@media (max-width: 1357px) {
+@media (max-width: 1200px) {
   .content {
-    min-height: 1200px;
+    min-height: 1400px;
   }
   .contentboximage1{
   margin-left: 30%;
