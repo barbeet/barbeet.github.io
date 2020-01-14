@@ -279,9 +279,10 @@ margin-left: 20%;
 
     }
 .log{
-  height: 0px;
-  width: 0px;
-  font-size: 0px;
+  width: 20%;
+  margin-left: 4%;
+  float: left;
+  margin-right: auto
 }
 
 .menu{
@@ -298,21 +299,21 @@ margin-left: 20%;
 }
 
 .contact {
-  width: 30%;
-  margin-left: 3%;
+  width: 20%;
+  margin-left: 4%;
   float: left;
   margin-right: auto;
 }
 .help{
-  width: 30%;
-  margin-left: 3%;
+  width: 20%;
+  margin-left: 4%;
   float: left;
   margin-right: auto;
 }
 .inform{
   margin-right: auto;
-  width: 30%;
-  margin-left: 3%;
+  width: 20%;
+  margin-left: 4%;
   float: left;
 }
 
