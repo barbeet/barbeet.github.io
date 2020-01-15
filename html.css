@@ -206,7 +206,7 @@ font-family: 'Jura', sans-serif;
 .contentboximage1{
   border-radius: 25px;
   background-size: cover;
-  background-image: url("./master/q1.jpg");
+  background-image: url("");
   height: 300px;
   width: 300px;
   margin-left: 20%;
@@ -215,7 +215,7 @@ font-family: 'Jura', sans-serif;
 .contentboximage2{
   border-radius: 25px;
   background-size: cover;
-  background-image: url("./master/q2.jpg");
+  background-image: url("");
   height: 300px;
   width: 300px;
   margin-left: 20%;
@@ -224,7 +224,7 @@ font-family: 'Jura', sans-serif;
 .contentboximage3{
   border-radius: 25px;
   background-size: cover;
-  background-image: url("./master/q3.jpg");
+  background-image: url("");
   height: 300px;
   width: 300px;
 margin-left: 20%;
