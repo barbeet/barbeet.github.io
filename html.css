@@ -165,15 +165,15 @@ color: #b6eae8;
   width: 100%;
 }
 .content h3{
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 5%;
+  margin-right: 5%;
   color:#b6eae8;
-  font-size: 200%;
+  font-size: 100%;
   font-family: 'Jura', sans-serif;
 }
 .helper h1{
   color:#b6eae8;
-  font-size: 400%
+  font-size: 200%
 }
 .helper h3{
   margin-left: 100px;
