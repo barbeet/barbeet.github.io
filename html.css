@@ -125,10 +125,10 @@ color: #b6eae8;
  background: #8e50bc;
   border-radius: 25px;
   height: 600px;
-  width: 80%;
+  width: 480px;
 color: #b6eae8;
   float:left;
-  margin-left: 10%;
+  margin-left: 13%;
   margin-top:  3%;
 }
 
@@ -165,8 +165,8 @@ color: #b6eae8;
   width: 100%;
 }
 .content h3{
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 100px;
+  margin-right: 100px;
   color:#b6eae8;
   font-size: 200%;
   font-family: 'Jura', sans-serif;
@@ -209,7 +209,8 @@ font-family: 'Jura', sans-serif;
   background-size: cover;
   background-image: url("");
   height: 300px;
-  width: 80%;
+  width: 300px;
+  margin-left: 20%;
   margin-top: 20px;
 }
 .contentboximage2{
@@ -217,8 +218,8 @@ font-family: 'Jura', sans-serif;
   background-size: cover;
   background-image: url("");
   height: 300px;
-  width: 80%;
-
+  width: 300px;
+  margin-left: 20%;
   margin-top: 20px;
 }
 .contentboximage3{
@@ -226,8 +227,8 @@ font-family: 'Jura', sans-serif;
   background-size: cover;
   background-image: url("");
   height: 300px;
-  width: 80%;
-
+  width: 300px;
+margin-left: 20%;
   margin-top: 20px;
 
 }
@@ -243,9 +244,7 @@ font-family: 'Jura', sans-serif;
     color:#b6eae8;
 
 }
-#toggle{
 
-}
 
 
 .navtoggle{
@@ -269,7 +268,7 @@ float: none;
   }
   .navtoggle{
 display: block;
-  
+
   }
 
   .navigationbox {
