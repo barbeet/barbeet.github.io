@@ -256,6 +256,17 @@ width: 10px;
 height: 10px;
 }
 @media (max-width: 1000px){
+  .contentbox1{
+   width:80%  ;
+    margin-left:10;
+    margin-right:10%;
+    
+  }
+  .contentboximage{
+    width:80%;
+    margin-left:10;
+    margin-right:10%; 
+  }
   .header{
 
 
