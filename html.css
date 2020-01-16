@@ -251,6 +251,8 @@ margin-left: 20%;
   z-index: 10;
   font-size: 40px;
   color:green;
+  margin-left:5%;
+  margin-top:3%;
   position: fixed;
 display: none;
 width: 10px;
