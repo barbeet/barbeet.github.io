@@ -5,27 +5,36 @@ html{
 
 }
 body{
-
+transition: 1s;
   margin: 0;
   height: 2000;
   width: 100%;
 
 
 }
+.header{
+  width: 100%;
+  height: auto;
+  float:left;
+position: fixed;
+transition: 1s;
+
+}
 .headerbox{
 height: auto;
 width: 100%;
  background: -webkit-linear-gradient(right top,#1c0ca1,#ee17dd);
+ transition: 1s;
 }
 .navigationbox{
-
+transition: 1s;
   width: 100%;
   height: auto;
-  position: fixed;
  background: transparent;
  border: 3px;
 
  height: 70px;
+ transition: 1s;
 
 }
 .log {
@@ -148,32 +157,17 @@ color: #b6eae8;
 
   width: 100%;
 }
-.contentboxtext2
-{
-  float: left;
-  margin-top: 30px;
-  text-align: center;
 
-  width: 100%;
-}
-.contentboxtext3
-{
-  float: left;
-  margin-top: 30px;
-  text-align: center;
-
-  width: 100%;
-}
 .content h3{
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 5%;
+  margin-right: 5%;
   color:#b6eae8;
-  font-size: 200%;
+  font-size: 100%;
   font-family: 'Jura', sans-serif;
 }
 .helper h1{
   color:#b6eae8;
-  font-size: 400%
+  font-size: 200%
 }
 .helper h3{
   margin-left: 100px;
@@ -236,8 +230,8 @@ margin-left: 20%;
   font-family: 'Jura', sans-serif;
     color:#b6eae8;
     font-size: 150%;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .sabbox h1{
   font-family: 'Jura', sans-serif;
@@ -249,35 +243,32 @@ margin-left: 20%;
 
 .navtoggle{
   z-index: 10;
-  font-size: 50px;
+  font-size: 40px;
   position: fixed;
 display: none;
-width: 10px;
-height: 10px;
+margin-left: 5%;
+margin-top: 3%;
+color: white;
+transition: 1s;
 }
 @media (max-width: 1000px){
   .header{
 
-
-float: none;
-    width: 100%;
-    height: 120%;
-
-
-    font-size: 60%;
   }
   .navtoggle{
 display: block;
+width: 0%;
+height: 0%;
 
   }
 
   .navigationbox {
-  font-size: 70%;
+
    background: -webkit-linear-gradient(right top,#1c0ca1,#ee17dd);
    display: none;
    float: none;
     width: 100%;
-    height: 120%;
+    height: 200%;
     position: fixed;
 
   }
@@ -299,17 +290,46 @@ display: block;
 .log h1{
   float: left;
   width: 100%;
+
 }
   .content{
     margin-top: 0;
   }
+  .contentboximage1{
+    height: 200px;
+    width: 90%;
+    margin-left: 5%;
+  }
+  .contentboximage2{
+    height: 200px;
+    width: 90%;
+    margin-left: 5%;
+  }
+  .contentboximage3{
+    height: 200px;
+    width: 90%;
+    margin-left: 5%;
+  }
+  .contentbox1{
+    background: #8e50bc;
+     border-radius: 25px;
+     height: 600px;
+     width: 90%;
+   color: #b6eae8;
+     float:left;
+     margin-left: 5%;
+     margin-top:  3%;
+  }
   .navigationbox-active{
     display: block;
+    transition: 1s;
   }
   .navtoggle-active{
     width: 100%;
     height: 100%;
   z-index: 10;
+  transition: 1s;
+
   }
 
 }
