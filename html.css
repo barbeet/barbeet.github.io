@@ -130,7 +130,8 @@ h2{
 color: #b6eae8;
 }
 
-.contentbox1 {
+.contentbox1 { 
+display: flex-box;
  background: #8e50bc;
   border-radius: 25px;
   height: 600px;
