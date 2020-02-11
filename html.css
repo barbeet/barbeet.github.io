@@ -4,7 +4,9 @@
     display:none;
   }
 }
-body{
+body{ 
+background:black;
+z-index:1000;
 font-family: 'Righteous', cursive;
   height: 4000px;
   margin:0;
