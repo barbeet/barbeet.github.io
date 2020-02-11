@@ -166,7 +166,7 @@ justify-content: center;
 width: 100%;
 background: white;
 }
-.tovarbox{
+.tovarbox1{
   float: left;
 
   margin: 0 20px 0 20px;
@@ -178,7 +178,32 @@ background: white;
   background: white;
   border-radius: 25px;
   border:2px solid black;
+}
+.tovarbox2{
+  float: left;
 
+  margin: 0 20px 0 20px;
+  height: 400px;
+
+ min-width: 404px;
+
+  margin-bottom: 20PX;
+  background: white;
+  border-radius: 25px;
+  border:2px solid black;
+}
+.tovarbox3{
+  float: left;
+
+  margin: 0 20px 0 20px;
+  height: 400px;
+
+ min-width: 404px;
+
+  margin-bottom: 20PX;
+  background: white;
+  border-radius: 25px;
+  border:2px solid black;
 }
 .imagetovar{
   height: 40%;
@@ -207,7 +232,145 @@ background: white;
 .opisanietovar{
 height: 10%;
   width: 100%;
-
 float:left;
 background: transparent;
 }
+.moreopisanietovar{
+  height: 10%;
+    width: 100%;
+  float:left;
+  background: transparent;
+  display: none;
+}
+.buttonmore1{
+  cursor: pointer;
+height: 10%;
+  width: 100%;
+float:left;
+background: transparent;
+}
+.buttonmore2{
+  cursor: pointer;
+height: 10%;
+  width: 100%;
+float:left;
+background: transparent;
+}
+.buttonmore3{
+  cursor: pointer;
+height: 10%;
+  width: 100%;
+float:left;
+background: transparent;
+}
+.tovarbox2-active{
+  display: inline;
+  float: left;
+  margin: 0px;
+  top:0;
+  position: fixed;
+  height: 100%;
+ width: 100%;
+ transition: 0.1s;
+ border:0;
+ border-radius: 0;
+ }
+
+.tovarbox1-active{
+  display: inline;
+  float: left;
+  margin: 0px;
+  top:0;
+  position: fixed;
+  height: 100%;
+ width: 100%;
+ transition: 0.1s;
+ border:0;
+ border-radius: 0;
+
+}
+.tovarbox3-active{
+  display: inline;
+  float: left;
+  margin: 0px;
+  top:0;
+  position: fixed;
+  height: 100%;
+ width: 100%;
+ transition: 0.1s;
+ border:0;
+ border-radius: 0;
+ }
+ .header-active{
+   display: none;
+     transition: 2s;
+  }
+  .buttonmore2-active{
+    top:6px;
+    right: 6px;
+    display: inline;
+   position: fixed;
+    cursor: pointer;
+  height: 70px;
+    width: 70px;
+    color: transparent;
+    background-image: url(./x.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .buttonmore1-active{
+    top:6px;
+    right: 6px;
+    display: inline;
+   position: fixed;
+    cursor: pointer;
+  height: 70px;
+    width: 70px;
+    color: transparent;
+    background-image: url(./x.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .buttonmore3-active{
+    top:6px;
+    right: 6px;
+    display: inline;
+   position: fixed;
+    cursor: pointer;
+  height: 70px;
+    width: 70px;
+    color: transparent;
+    background-image: url(./x.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .nametovar-active{
+    float: left;
+    margin-top:30px;
+    width: 100%;
+    height:60px;
+  }
+  .pricetovar-active{
+    float: left;
+  width: 100%;
+    height:60px;
+  }
+  .opisanietovar-active{
+      margin-top:30px;
+      float: left;
+ width: 50%;
+    height:60px;
+  }
+  .infotovar-active{
+    margin-left: 10%;
+    height: 100%;
+    width: 30%;
+    float: left;
+  }
+  .moreopisanietovar-active{
+    margin-top:30px;
+    display: block;
+    float: left;
+  width: 50%;
+  height:60px;
+  }
