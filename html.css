@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Righteous|Teko|Varela+Round&display=swap');
-@media (min-width: 1000px){
+@media (max-width: 1000px){
   .header{
     display:none;
   }
