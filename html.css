@@ -9,12 +9,13 @@ font-family: 'Righteous', cursive;
   text-transform: uppercase;
 }
 header{
+  text-align: center;
 z-index: 10;
 
   color:white;
   background:transparent;
  position: fixed;
-  height: 30px;
+  height: 40px;
   width: 100%;
 
 }
@@ -22,11 +23,11 @@ z-index: 10;
 
   margin: auto;
 max-width:1300px;
-  height: 30px;
+  height: 40px;
   background: transparent;
 }
 .logo{
-  margin-top:7px;
+  margin-top:10px;
     margin-left: 20px;
   float: left;
   background: transparent;
@@ -34,10 +35,10 @@ max-width:1300px;
 }
 .menubox{
 
-  margin-top:7px;
+
   float: right;
-  width: 700px;
-  height:33px;
+  width: 75%;
+  height:40px;
   background: transparent;
 }
 .menu{
@@ -50,8 +51,8 @@ max-width:1300px;
 }
 
 .menu h5{
-height: auto;
-margin: 0;
+margin-bottom: 0px;
+margin-top:10px;
 }
 .menu:hover{
 
@@ -154,6 +155,10 @@ border-bottom:2px solid black
   background: white;
 }
 .tovar {
+  display: flex;
+flex-wrap:   wrap;
+justify-content: center;
+    align-content: space-between;
   text-align: center;
   margin-top: 10px;
   float: left;
@@ -162,41 +167,47 @@ width: 100%;
 background: white;
 }
 .tovarbox{
+  float: left;
 
-  margin:auto;
-  height: 300px;
-  width: 90%;
-margin-bottom: 20PX;
+  margin: 0 20px 0 20px;
+  height: 400px;
+
+ min-width: 404px;
+
+  margin-bottom: 20PX;
   background: white;
   border-radius: 25px;
   border:2px solid black;
 
 }
 .imagetovar{
-  height: 100%;
-  width: 30%;
-  float: left;
+  height: 40%;
+  width: 90%;
+  margin: auto;
   background-image: url(https://www.tesla.com/sites/tesla/files/carousel/image/charger-1%402_0.jpg);
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
 }
 .nametovar{
-  height: 25%;
-  width: 69%;
-  float:right;
+
+  height: 10%;
+  width:100%;
+  float:left;
   background:transparent;
 
 }
 .pricetovar{
-  height:25%;
-  width: 69%;
-  float:right;
+  height: 10%;
+  width: 100%;
+
+  float:left;
   background: transparent;
 }
 .opisanietovar{
-  height: 50%;
-  width: 69%;
-float:right;
+height: 10%;
+  width: 100%;
+
+float:left;
 background: transparent;
 }
