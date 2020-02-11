@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Righteous|Teko|Varela+Round&display=swap');
+@media (min-width: 1000px){
+  .header{
+    display:none;
+  }
+}
 body{
 font-family: 'Righteous', cursive;
   height: 4000px;
