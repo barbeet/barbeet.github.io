@@ -1,381 +1,166 @@
-@import url('https://fonts.googleapis.com/css?family=Righteous|Teko|Varela+Round&display=swap');
-@media (max-width: 1000px){
-  .header{
-    display:none;
-  }
-}
+@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan+2&display=swap');
+
 body{
-font-family: 'Righteous', cursive;
-  height: 4000px;
-  margin:0;
+  font-family: sans-serif;
+  margin: 0;
   border:0;
-  transition: 1s;
-  text-decoration: none;
-  text-transform: uppercase;
 }
-header{
-  text-align: center;
-z-index: 10;
-
-  color:white;
-  background:transparent;
- position: fixed;
-  height: 40px;
-  width: 100%;
-
-}
-.headerbox{
-
+.sitebox{
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 7px;
+  max-width: 1400px;
   margin: auto;
-max-width:1300px;
-  height: 40px;
-  background: transparent;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row!important;
+  border-bottom: 1px solid #dee2e6!important;
+  padding: 10px 10px 10px 16px;
 }
 .logo{
-  margin-top:10px;
-    margin-left: 20px;
-  float: left;
-  background: transparent;
-  cursor: pointer;
+
 }
-.menubox{
-
-
-  float: right;
-  width: 75%;
-  height:40px;
-  background: transparent;
+h1,h2,h3,h4,h5{
+  margin: 0;
 }
 .menu{
-  text-align: center;
-  width: 70px;
-  height: 100%;;
-  float: right;
-  margin:0 30px 0 30px;
-  cursor: pointer;
-}
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 
-.menu h5{
-margin-bottom: 0px;
-margin-top:10px;
 }
-.menu:hover{
-
-  border-bottom: 2px solid black;
+.menuitem{
+  margin: 0 15px 0 15px;
+}
+.menuitem:hover{
+ text-decoration: underline;
+}
+a{
+ text-decoration: none;
+ text-transform: none;
+ color: black;
+}
+.mainmenu{
+ height: 35px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 0px 5px 0px 5px;
+ border-bottom: 1px solid #dee2e6!important;
+}
+.mainmenuleft, .mainmenuright{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+button{
+ border:0px;
+ border-radius: 18px;
+ background: #0071e3;
+ color:#fff;
+ cursor: pointer;
+}
+button:hover{
+ background: #167DE4;
+}
+.mainmenuitem{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ height: 35px;
+ padding: 0 7px 0 7px;
+ border-right:1px solid #dee2e6!important;
 }
 .content{
-
-
-
+ min-height: 800px;
+ display: flex;
+ justify-content: space-between;
+ border-bottom: 1px solid #dee2e6!important;
 }
-.zagolovok {
-color:white;
-width: 100%;
-height: 500px;
-position: absolute;
-top:250px;
-float:left;
-text-align:center;
-opacity:0; /*Элемент полностью прозрачный (невидимый)*/
-transition: 10s; /*Скорость перехода состояния элемента*/
-animation: show 3s 1; /* Указываем название анимации, её время и количество повторов*/
-animation-fill-mode: forwards; /* Чтобы элемент оставался в конечном состоянии анимации */
-animation-delay: 0; /* Задержка перед началом */
+.sidebar{
+ height: 500px;
+ float: left;
+ width: 20%;
+ border-right: 1px solid #dee2e6!important;
+ overflow: scroll;
+ overflow-x: hidden;
+}
+.contentbar{
+  float: left;
+  padding: 40px;
+  width: 100%;
+}
+.contentbar h3 {
+  text-align: center;
+}
+.footer{
+  padding:40px 20px 40px 20px;
+}
+li {
+    list-style-type: none; /* Убираем маркеры */
+   }
+ul {
+    margin-bottom:0;
+    margin-top:0;
+    margin-left:0;
+    padding-left:0;
   }
-  @keyframes show{
-0%{
-opacity:0;
-}
-100% {
-opacity:1;
-}
-}
-
-.content2{
-  width: 100%;
-  height:100px;
-  background: white;
-  text-align: center;
-}
-.content2 h1{
-margin-top: 60px;
-}
-.fixed {
-transition: 0.5s;
-  z-index: 5000;
-  background-color: #fff;
-  border-bottom: 1px solid silver;
-
-}
-
-header.fixed .headerbox{
-    transition: 0;
-  color: black;
-  border-left: 2px solid black;
-    border-right:  2px solid black;
-}
-
-.fixed #about a {color: #343434}
-.fixed #about a:hover {color: #7c7c7c}
-.vibor{
-
-
-border-bottom: 1px solid black;
-border-top:1px solid black;
-float:left;
-height:30px;
-width:100%;
-background:white;
-}
-.menubox1{
-border-left:2px solid black;
-margin: auto;
-border-right:2px solid black;margin:auto;
-max-width:1300px;
-height:100%;
-background:transparent;
-width: 98%;
-}
-.menu1{
-text-align:center;
-
-height:95%;
-width:25%;
-background:white;
-float:left;
-cursor:pointer;
-}
-.menu1 h5{
-height: auto;
-margin-top: 5px;
-
-}
-.menu1:hover {
-border-bottom:2px solid black
-}
-.shopbox{
-  float: left;
-  height: 1000px;
-  width: 100%;
-  background: white;
-}
-.tovar {
-  display: flex;
-flex-wrap:   wrap;
-justify-content: center;
-    align-content: space-between;
-  text-align: center;
-  margin-top: 10px;
-  float: left;
-  height: 500px;
-width: 100%;
-background: white;
-}
-.tovarbox1{
-  float: left;
-
-  margin: 0 20px 0 20px;
-  height: 400px;
-
- min-width: 404px;
-
-  margin-bottom: 20PX;
-  background: white;
-  border-radius: 25px;
-  border:2px solid black;
-}
-.tovarbox2{
-  float: left;
-
-  margin: 0 20px 0 20px;
-  height: 400px;
-
- min-width: 404px;
-
-  margin-bottom: 20PX;
-  background: white;
-  border-radius: 25px;
-  border:2px solid black;
-}
-.tovarbox3{
-  float: left;
-
-  margin: 0 20px 0 20px;
-  height: 400px;
-
- min-width: 404px;
-
-  margin-bottom: 20PX;
-  background: white;
-  border-radius: 25px;
-  border:2px solid black;
-}
-.imagetovar{
-  height:60%;
-  width: 90%;
-  margin: auto;
-  background-image: url(https://www.tesla.com/sites/tesla/files/carousel/image/charger-1%402_0.jpg);
+.eye{
+  transition: 1s;
+  height: 20px;
+  width: 20px;
+  background-image: url('/static/img/hidden.png');
   background-position: center;
-  background-size: 100%;
   background-repeat: no-repeat;
+  background-size: 100%;
+  cursor: pointer;
 }
-.nametovar{
-
-  height: 10%;
-  width:100%;
-  float:left;
-  background:transparent;
-
+.eye-active{
+  background-image:url('/static/img/eye.png');
 }
-.pricetovar{
-  height: 10%;
-  width: 100%;
-
-  float:left;
-  background: transparent;
-}
-.opisanietovar{
-height: 10%;
-  width: 100%;
-float:left;
-background: transparent;
-}
-.moreopisanietovar{
-  height: 10%;
-    width: 100%;
-  float:left;
-  background: transparent;
+.sidebar-none{
   display: none;
 }
-.buttonmore1{
-  cursor: pointer;
-height: 10%;
-  width: 100%;
-float:left;
-background: transparent;
-}
-.buttonmore2{
-  cursor: pointer;
-height: 10%;
-  width: 100%;
-float:left;
-background: transparent;
-}
-.buttonmore3{
-  cursor: pointer;
-height: 10%;
-  width: 100%;
-float:left;
-background: transparent;
-}
-.tovarbox2-active{
-  display: inline;
-  float: left;
-  margin: 0px;
-  top:0;
-  position: fixed;
-  height: 100%;
- width: 100%;
- transition: 0.1s;
- border:0;
- border-radius: 0;
- }
-
-.tovarbox1-active{
-  display: inline;
-  float: left;
-  margin: 0px;
-  top:0;
-  position: fixed;
-  height: 100%;
- width: 100%;
- transition: 0.1s;
- border:0;
- border-radius: 0;
+.site-form{
+   font-size: 100%;
+  font:200px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
 
 }
-.tovarbox3-active{
-  display: inline;
-  float: left;
-  margin: 0px;
-  top:0;
-  position: fixed;
-  height: 100%;
- width: 100%;
- transition: 0.1s;
- border:0;
- border-radius: 0;
- }
- .header-active{
-   display: none;
-     transition: 2s;
-  }
-  .buttonmore2-active{
-    top:6px;
-    right: 6px;
-    display: inline;
-   position: fixed;
-    cursor: pointer;
-  height: 70px;
-    width: 70px;
-    color: transparent;
-    background-image: url(./x.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-  }
-  .buttonmore1-active{
-    top:6px;
-    right: 6px;
-    display: inline;
-   position: fixed;
-    cursor: pointer;
-  height: 70px;
-    width: 70px;
-    color: transparent;
-    background-image: url(./x.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-  }
-  .buttonmore3-active{
-    top:6px;
-    right: 6px;
-    display: inline;
-   position: fixed;
-    cursor: pointer;
-  height: 70px;
-    width: 70px;
-    color: transparent;
-    background-image: url(./x.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-  }
-  .nametovar-active{
-    float: left;
-    margin-top:30px;
-    width: 100%;
-    height:60px;
-  }
-  .pricetovar-active{
-    float: left;
-  width: 100%;
-    height:60px;
-  }
-  .opisanietovar-active{
-      margin-top:30px;
-      float: left;
- width: 50%;
-    height:60px;
-  }
-  .infotovar-active{
-    margin-left: 10%;
-    height: 100%;
-    width: 30%;
-    float: left;
-  }
-  .moreopisanietovar-active{
-    margin-top:30px;
-    display: block;
-    float: left;
-  width: 50%;
-  height:60px;
-  }
+.create-article h2{
+  text-align:center;
+  color:#0071e3;
+}
+.button-create, .site-form label, .site-form input{
+  margin:10px 0 10px 0;
+}
+.button-create{
+  height:30px;
+  width:100px;
+}
+.site-form input{
+   font-size: 100%;
+  height:40px;
+  width: 40%;
+  border-radius:10px;
+  padding:10px 20px 10px 20px;
+  text-align:center;
+  border:1px solid #0071e3;
+}
+.site-form textarea{
+  font-size: 160%;
+  width:100%;
+  border-radius:10px;
+  border:1px solid #0071e3;
+}
+.site-form label{
+  background:#0071e3;
+  color:white;
+  padding:10px 20px 10px 20px;
+  border-radius:50px;
+}
+
