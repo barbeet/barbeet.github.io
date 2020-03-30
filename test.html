@@ -1,148 +1,88 @@
-<!doctype>
+{% load static %}
+<!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>ОПА Ф5</title>
-<link rel="stylesheet" href="./html.css">
+{% if title %}
+<title>Django Bolog </title>
+{%else %}
+ <title>Django Bolog</title>
+ {% endif %}
+  <link rel="stylesheet" type="text/css" href="{% static 'blog/main.css' %}">
+<style>
+
+ </style>
+
 </head>
-<body>
-<div class="header">
 
-
-  <header>
-    <div class="headerbox">
-      <div class="logo">
-        <img src="./tesla.png" height="15px">
-        </div>
-        <div class="menubox">
-          <div class="menu">
-            <h5>help<h5>
-            </div>
-            <div class="menu">
-              <h5>help<h5>
-              </div>
-              <div class="menu">
-                <h5>help<h5>
-                </div>
-                <div class="menu">
-                <h5>help<h5>
-                  </div>
-            </div>
-      </div>
-      </header>
-</div>
-      <div class="content">
-        <img src="./teslatruck.png" width="100%">
-        <div class="zagolovok">
-          <div class="text">
- <h1> COMING SOON </h1>
-            </div>
-          </div>
-        </div>
-        <div class="shopbox">
-        <div class="content2">
-
-
-        <h1>TESLA SHOP MERCH</h1>
-          </div>
-          <div class="vibor">
-          <div class="menubox1">
-          <div class="menu1">
-          <h5>help<h5>
-          </div>
-          <div class="menu1">
-          <h5>help<h5>
-          </div>
-          <div class="menu1">
-          <h5>help<h5>
-          </div>
-          <div class="menu1">
-          <h5>help<h5>
-          </div>
-        </div>
-        </div>
-        <div class="tovar">
-          <div class="tovarbox1">
-            <div class="contenttovar">
-              <div class="imagetovar">
-              </div>
-      <div class="infotovar">
-              <div class="nametovar">
-                TESLA MODEL A
-              </div>
-              <div class="pricetovar">
-                2000$
-              </div>
-            </div>
-              <div class="opisanietovar">
-                THIS IS A MAGIC AUTO
-              </div>
-              <div class="moreopisanietovar">
-                hyiandadok
-              </div>
-              <div class="buttonmore1">
-                more info
-              </div>
-
-            </div>
-        </div>
-        <div class="tovarbox2">
-          <div class="contenttovar">
-            <div class="imagetovar">
-            </div>
-    <div class="infotovar">
-            <div class="nametovar">
-              TESLA MODEL S
-            </div>
-            <div class="pricetovar">
-              2000$
-            </div>
-          </div>
-            <div class="opisanietovar">
-              THIS IS A MAGIC AUTO
-            </div>
-            <div class="moreopisanietovar">
-              clehni v dele i na predele
-            </div>
-            <div class="buttonmore2">
-              more info
-            </div>
-
-          </div>
-      </div>
-      <div class="tovarbox3">
-        <div class="contenttovar">
-          <div class="imagetovar">
-          </div>
-          <div class="nametovar">
-            TESLA MODEL G
-          </div>
-          <div class="pricetovar">
-            2000$
-          </div>
-          <div class="opisanietovar">
-            THIS IS A MAGIC AUTO
-          </div>
-
-        </div>
+<body >
+  <div class="sitebox">
+<header>
+  <div class="header">
+    <div class="logo">
+      <a href="http://127.0.0.1:8000/"><img src="{% static '/img/MGOK.png' %}" width="140" height="50"></a>
+     </div>
+    <ul class="menu">
+     <li><a class="menuitem" href="http://mgok.mskobr.ru/#/">МГОК</a></li>
+     <li><a class="menuitem" href="#">Контакты</a></li>
+     <li><a class="menuitem" href="#">FAQ</a></li>
+    </ul>
     </div>
+  <div class="mainmenu">
+    <div class="mainmenuleft">
+     <div class="mainmenuitem" style="padding-right:12px;">
+      <div class="eye"></div>
+     </div>
+    <div class="mainmenuitem">
+     <p><b>Поиск</b>
+   <input type="text" size="20">
+     <button style="padding:3px 15px 3px 15px;"><h4>Найти</h4></button>
+    </div>
+
+
+    </div>
+    <div class="mainmenuright">
+     
+     <div class="mainmenuitem">
+  <a href="http://127.0.0.1:8000/home/">Создать</a>
+     </div>
+
+    </div>
+   </div>
+</header>
+<content>
+  <div class="content">
+     <ul class="sidebar">
+       {% block content %}
+       {% endblock %}
+     </ul>
+   </sselect>
+      <div class="contentbar">
+      {% block contectbar %}
+      {% endblock %}
         </div>
-        </div>
-          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script>
+  </div>
+</content>
+<footer >
+  <div class="footer">
+    <div class="footerl">
+        <ul class="kris-copiright">
+            <li>2020 © <a href="//dogm.mos.ru/" target="_blank">Департамент образования и науки города Москвы</a></li>
+            </li>
+        </ul>
+    </div>
+    </div>
+</footer >
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="{% static 'script/google-translate.js' %}"></script>
 
-    $(document).on("scroll", function () {
-      if($(window).scrollTop() === 0)
-        $("header").removeClass("fixed");
-      else
-        $("header").attr("class", "fixed");
-    });
-  </script>
+<script src="//translate.google.com/translate_a/element.js?cb=TranslateInit"></script>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="./main.js"></script>
-
+<script src="{% static 'script/main.js' %}"></script>
 </body>
 </html>
+
