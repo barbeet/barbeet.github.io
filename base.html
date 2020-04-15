@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,78 +5,67 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-<title>Django Bolog </title>
-  <link rel="stylesheet" type="text/css" href="./main.css">
-<style>
+<title>Django Bolog</title>
 
+  <link rel="stylesheet" type="text/css" href="./base.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="jquery.fullpage.js"></script>
+<style>
+a {
+  text-decoration: none;
+}
+li{
+  list-style-type: none;
+}
+ul,h1,h2,h3,h4,h5{
+  margin: 0;
+}
  </style>
 
 </head>
 
-<body >
-  <div class="sitebox">
-<header>
+<body>
   <div class="header">
-    <div class="logo">
-      <a href="http://127.0.0.1:8000/"><img src="./MGOK.png" width="140" height="50"></a>
-     </div>
-    <ul class="menu">
-     <li><a class="menuitem" href="http://mgok.mskobr.ru/#/">МГОК</a></li>
-     <li><a class="menuitem" href="#">Контакты</a></li>
-     <li><a class="menuitem" href="#">FAQ</a></li>
-    </ul>
-    </div>
-  <div class="mainmenu">
-    <div class="mainmenuleft">
-     <div class="mainmenuitem" style="padding-right:12px;">
-      <div class="eye"></div>
-     </div>
-    <div class="mainmenuitem">
-     <p><b>Поиск</b>
-   <input type="text" size="20">
-     <button style="padding:3px 15px 3px 15px;"><h4>Найти</h4></button>
-    </div>
-
-
-    </div>
-    <div class="mainmenuright">
-     
-     <div class="mainmenuitem">
-  <a href="http://127.0.0.1:8000/home/">Создать</a>
-     </div>
-
-    </div>
-   </div>
-</header>
-<content>
-  <div class="content">
-     <ul class="sidebar">
-     
-     </ul>
-   </sselect>
-      <div class="contentbar">
-      
-        </div>
+  	<ul class="header-left">
+  	 <li class="logo">
+  		 <a href="#"><h2>logo</h2></a>
+  	 </li>
+  	</ul>
+  	<ul class="header-center">
+  	</ul>
+  	<ul class="header-right">
+  		<li class="header-item">
+  		 <a href="#"><h4>О нас</h4> </a>
+  		</li>
+  		<li class="header-item">
+  		 <a href="#"><h4>Контакты</h4></a>
+  		</li>
+  		<li class="header-item">
+  		 <a href="#"><h4>Услуги </h4></a>
+  		</li>
+  		<li class="header-item">
+  		 <a href="#"><h4>Личный кабинет </h4  ></a>
+  		</li>
+  	</ul>
   </div>
-</content>
-<footer >
-  <div class="footer">
-    <div class="footerl">
-        <ul class="kris-copiright">
-            <li>2020 © <a href="//dogm.mos.ru/" target="_blank">Департамент образования и науки города Москвы</a></li>
-            </li>
-        </ul>
-    </div>
-    </div>
-</footer >
-</div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
-<script src="{% static 'script/google-translate.js' %}"></script>
+  <div id="fullpage">
+    <section>
+      <div class="content">        
+       </div>
 
-<script src="//translate.google.com/translate_a/element.js?cb=TranslateInit"></script>
+    </section>
+        <section><h1> hello2 </h1></section>
+            <section><h1> hello3 </h1></section>
+                <section><h1> hello4 </h1></section>
+                    <section><h1> hello5 </h1></section>
+                        <section><h1> hello6 </h1></section>
+                            <section><h1> hello7 </h1></section>
+                                <section><h1> hello8 </h1></section>    <section><h1> hello1 </h1></section>
+  </div>
+  <script type="text/javascript">
+  $('#fullpage').fullpage();
+  FastClick.attach(document.body);
 
-<script src="{% static 'script/main.js' %}"></script>
-</body>
-</html>
-
+  </script>
+  </body>
+  </html>
