@@ -15,7 +15,8 @@ body{
 }
 #fullpage section:nth-child(2)
 {
-	background: white;
+	background-image: url(city.jpg);
+	background-size: cover;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Just+Another+Hand');
@@ -52,8 +53,16 @@ body, html{
 	height: 93%;
 	width: 100%;
   display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
+	color:white;
+
+}
+.zagolovok{
+	background: #000000a3;
+	padding: 20px;
+	border-radius: 10px;
+
 }
 .sitebar{
 	height: 90%;
@@ -108,3 +117,26 @@ body, html{
 }
 .card:hover .front {transform: rotateY(180deg);}
 .card:hover .back {transform: rotateY(360deg);}
+
+.zagolovok-2{
+margin-top: 30px;
+}
+.mapyandex{
+ padding: 400px;
+}
+.section{
+
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+}
+#ymaps1586967713947155340{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+}
+.map {
+	margin: auto;
+}
