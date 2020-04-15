@@ -1,0 +1,110 @@
+body{
+	margin:0;
+	padding:0;
+
+}
+#fullpage {
+  height:100vh;
+  overflow:hidden;
+}
+#fullpage section {height:100vh; }
+
+#fullpage section:nth-child(1)
+{
+	background: transparent;
+}
+#fullpage section:nth-child(2)
+{
+	background: white;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Just+Another+Hand');
+
+body, html{
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	overflow-X: hidden;
+	background-image: url(https://images.squarespace-cdn.com/content/v1/57bf69aa9f7456b465a1ef78/1552972248385-JLADWPA6BC7YCPRKRFM4/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/service-page-mobile-car-wash-2500x1667.jpg?format=2500w);
+	background-size: cover;
+	}
+
+.header{
+	background: #f3f3f3;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.header h1,h2,h3,h4,h5{
+	color:black;
+}
+.header-right{
+  display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.header-item{
+	margin: 0 10px 0 10px;
+}
+.content{
+	height: 93%;
+	width: 100%;
+  display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.sitebar{
+	height: 90%;
+	width: 30%;
+	background:#423e3e91;
+
+}
+.contentbar{
+	font-size: 100%;
+		border-radius: 20px;
+		background: #423e3e91;
+		width: 40%;
+		height: 80%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.contentbar-item{
+	height: 40%;
+	width: 40%;
+		background: transparent;
+}
+
+.card {
+	height: 40%;
+	width: 40%;
+  margin:10px;
+  position: relative;
+  perspective: 1000px;
+}
+.front, .back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+  backface-visibility: hidden;
+	border-radius: 10px;
+}
+.front {
+	color:#fffffa;
+  background-color: #2948f9;
+}
+.back {
+		color:#fffffa;
+  background-color: #0071e3;
+  transform: rotateY(180deg);
+}
+.card:hover .front {transform: rotateY(180deg);}
+.card:hover .back {transform: rotateY(360deg);}
